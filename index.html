@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="./css/style.css">
+
+        <link rel="icon" href="./images/favicon.ico?ver=1" type="image/x-icon">
+        <link rel="icon" sizes="32x32" href="./images/favicon-32x32.png?ver=1">
+    </head>
+    <body>
+        <h1 class="mobile-logo mt-45 mb-45">web3<span class="weight-600">on</span></h1>
+        <div class="tb-container">
+            <div class="tb-grid">
+                <div class="tb-grid__cell">
+                    <img class="tb-grid__image" src="./images/mona.png">
+                </div>
+                <div class="tb-grid__cell">
+                    <div class="cc text-center">
+                        <h1 class="cc__logo mb-45">web3<span class="weight-600">on</span></h1>
+                        <div class="cc__text mb-60">
+                            <p>No-code платформа для изучения web3<br />
+                            и прототипирования проектов</p>
+                            
+                            <p>Для ВУЗов, школ, стартапов и всех кому интересен мир web3</p>
+                            
+                            <p>Развитие цифровых компетенций студентов и преподавателей, подготовка профессионалов в области  технологического предпринимательства</p>
+                        </div>
+                        <div class="cc__button-wrapper">
+                            <a href="/" class="cc__button mb-45">Попробовать альфа-версию</a>
+                        </div>
+                        <div>
+                            <a href="mailto:info@web3on.ru" class="cc__email">info@web3on.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    (async () => {
+        let image = document.querySelector('.tb-grid__image');
+        let delay = false;
+        if (image) {
+            setInterval(function() {
+                if (!delay) {
+                    image.style.opacity = getRandomInt(70, 100) + '%';
+                }
+            }, 100);
+        }
+
+        setInterval(function() {
+            delay = getRandomInt(0, 3);
+        }, 1000)
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min) + min);
+        }
+    })();
+</script>

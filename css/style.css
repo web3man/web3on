@@ -1,0 +1,162 @@
+html,
+body {
+    background: #2A2C3D;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.tb-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px 0 16px;
+}
+
+.tb-grid {
+    display: block;
+}
+
+.tb-grid__cell {
+    max-width: 100%;
+    margin-bottom: 62px;
+}
+
+.tb-grid__image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* mobile */
+
+.mobile-logo {
+    text-align: center;
+    margin: 0;
+    font-size: 62px;
+    color: #70a4be;
+    font-weight: 400;
+}
+
+/* content container */
+
+.cc {
+
+}
+
+.cc__logo {
+    display: none;
+    margin: 0;
+    font-size: 62px;
+    color: #70a4be;
+    font-weight: 400;
+}
+
+.cc__text {
+    font-size: 24px;
+    color: #c3c5d4;
+    font-weight: 400;
+}
+
+.cc__text p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.cc__button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.cc__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    padding: 0 29px;
+    
+    background: #414562;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.cc__button:hover {
+    background: #4f526e;
+}
+
+
+.cc__email {
+    font-size: 22px;
+    color: #70a4be;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.cc__email:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+
+
+
+@media (min-width: 632px) {
+    .tb-grid__cell,
+    .tb-grid__image {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .mobile-logo {
+        display: none;
+    }
+    .tb-container {
+        min-height: 100vh;
+    }
+
+    .tb-grid {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .tb-grid__cell {
+        margin-bottom: 0;
+    }
+
+    .tb-grid__cell:last-child {
+        margin-right: 62px;
+    }
+    .cc__logo {
+        display: block;
+    }
+}
+
+
+
+
+
+/* helpers */
+
+.text-center {
+    text-align: center;
+}
+
+.weight-600 {
+    font-weight: 600;
+}
+
+
+.mt-45 {
+    margin-top: 45px;
+}
+.mb-45 {
+    margin-bottom: 45px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
