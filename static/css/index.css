@@ -106,7 +106,7 @@ body {
 @media (min-width: 632px) {
     .tb-grid__cell,
     .tb-grid__image {
-        width: 689px;
+        width: 600px;
     }
 }
 
@@ -133,6 +133,11 @@ body {
     .cc__logo {
         display: block;
     }
+
+    .tb-grid__cell,
+    .tb-grid__image {
+        width: 689px;
+    }
 }
 
 
@@ -153,6 +158,8 @@ body {
 .mt-45 {
     margin-top: 45px;
 }
+
+
 .mb-45 {
     margin-bottom: 45px;
 }
