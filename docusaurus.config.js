@@ -9,7 +9,7 @@ const config = {
   title: 'Web3on - No-code для Web3',
   favicon: 'images/favicon.ico',
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://web3on.io.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'web3on', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -40,7 +40,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://bitbucket.org/takemycode/web3on_landing/src/docusaurus/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -112,8 +112,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Bitbucket',
+                href: 'https://bitbucket.org/takemycode/web3on_landing/src/docusaurus/',
               },
             ],
           },
