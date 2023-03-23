@@ -26,8 +26,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'ru',
-    locales: ['ru'],
+    defaultLocale: 'en',
+    locales: ['ru','en'],
   },
 
   presets: [
@@ -60,11 +60,11 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Web3on',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-          href: 'https://web3on.io/'
-        },
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        //   href: 'https://web3on.io/'
+        // },
         items: [
           {
             type: 'doc',
@@ -82,32 +82,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
           {
             title: 'More',
             items: [
