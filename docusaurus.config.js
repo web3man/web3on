@@ -26,7 +26,7 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'ru',
     locales: ['ru','en'],
   },
 
@@ -41,6 +41,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://bitbucket.org/takemycode/web3on_landing/src/docusaurus/',
+          editLocalizedFiles: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -77,6 +78,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {

@@ -1,0 +1,14 @@
+{
+  "link.title.More": {
+    "message": "Больше",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Bitbucket": {
+    "message": "Bitbucket",
+    "description": "The label of footer link with label=Bitbucket linking to https://bitbucket.org/takemycode/web3on_landing/src/docusaurus/"
+  },
+  "copyright": {
+    "message": "Copyright © 2023 My Project, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}
