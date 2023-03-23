@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'web3man', // Usually your GitHub org/user name.
   projectName: 'web3on', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -40,7 +40,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://bitbucket.org/takemycode/web3on_landing/src/docusaurus/',
+            'https://github.com/web3man/web3on/blob/docusaurus/',
           editLocalizedFiles: true,
         },
         theme: {
@@ -74,7 +74,7 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/web3man/web3on',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,8 +91,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Bitbucket',
-                href: 'https://bitbucket.org/takemycode/web3on_landing/src/docusaurus/',
+                label: 'GitHub',
+                href: 'https://github.com/web3man/web3on',
               },
             ],
           },
