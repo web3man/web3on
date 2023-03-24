@@ -87,17 +87,8 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/web3man/web3on',
-              },
-            ],
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Web3on, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
