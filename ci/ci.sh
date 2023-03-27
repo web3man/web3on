@@ -1,9 +1,6 @@
 #!/bin/bash
 script_pwd=$(cd "$(dirname "$0")"; pwd)
-BRANCH=docs
-REPO=git@bitbucket.org:takemycode/nocode.git
-# название папки куда будет пулиться репо
-REPO_DIR=/tmp/nocode
+export $(cat $script_pwd/.env | xargs)
 last_commit=$(git -C $REPO_DIR rev-parse --short HEAD)
 echo $last_commit
 git -C $REPO_DIR checkout $BRANCH && git -C $REPO_DIR pull -f || git clone $REPO $REPO_DIR -b $BRANCH
