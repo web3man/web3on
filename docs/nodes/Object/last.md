@@ -2,6 +2,6 @@
 sidebar_position: 7
 ---
 
-# last
+# Last
 
-## md для last
+## Last

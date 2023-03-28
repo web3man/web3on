@@ -1,6 +1,6 @@
 {
   "label": "Display",
-  "position": null,
+  "position": 4,
   "link": {
     "type": "generated-index",
     "description": "Display"

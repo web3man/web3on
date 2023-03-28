@@ -37,6 +37,9 @@ if(!translationMap){
 const curr_docs = currDocs(path.join(docs_dir,'/nodes'))
 const curr_nodes = currNodes(path.join(nocode_dir,'src/nodes'))
 let section_position = Math.max(...Object.keys(curr_docs).map(section=>curr_docs[section].position)) + 1
+if (!isFinite(section_position)){
+    section_position = 1;
+}
 for(const section in curr_nodes){
     if(typeof curr_docs[section] === "undefined"){
         console.log("creating section", section)

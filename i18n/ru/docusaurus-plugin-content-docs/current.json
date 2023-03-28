@@ -3,36 +3,16 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Nodes": {
+  "sidebar.tutorialSidebar.category.nodes": {
     "message": "Блоки",
-    "description": "The label for category Nodes in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Nodes.link.generated-index.description": {
-    "message": "Общее описание кубиков",
-    "description": "The generated-index page description for category Nodes in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Input": {
-    "message": "Ввод",
-    "description": "The label for category Input in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Input.link.generated-index.description": {
-    "message": "Описание инпутов",
-    "description": "The generated-index page description for category Input in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Display": {
-    "message": "Вывод",
-    "description": "The label for category Display in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Display.link.generated-index.description": {
-    "message": "Описание дисплеев",
-    "description": "The generated-index page description for category Display in sidebar tutorialSidebar"
+    "description": "The label for category nodes in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Components": {
     "message": "Компоненты",
     "description": "The label for category Components in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Components.link.generated-index.description": {
-    "message": "Описание Components",
+    "message": "Компоненты",
     "description": "The generated-index page description for category Components in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Control": {
@@ -40,7 +20,7 @@
     "description": "The label for category Control in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Control.link.generated-index.description": {
-    "message": "Описание Control",
+    "message": "Control",
     "description": "The generated-index page description for category Control in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Crypto": {
@@ -48,15 +28,31 @@
     "description": "The label for category Crypto in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Crypto.link.generated-index.description": {
-    "message": "Описание Crypto",
+    "message": "Криптография",
     "description": "The generated-index page description for category Crypto in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Display": {
+    "message": "Вывод",
+    "description": "The label for category Display in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Display.link.generated-index.description": {
+    "message": "Вывод",
+    "description": "The generated-index page description for category Display in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Input": {
+    "message": "Ввод",
+    "description": "The label for category Input in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Input.link.generated-index.description": {
+    "message": "Ввод",
+    "description": "The generated-index page description for category Input in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Math": {
     "message": "Math",
     "description": "The label for category Math in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Math.link.generated-index.description": {
-    "message": "Описание Math",
+    "message": "Math",
     "description": "The generated-index page description for category Math in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Modules": {
@@ -64,7 +60,7 @@
     "description": "The label for category Modules in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Modules.link.generated-index.description": {
-    "message": "Описание Modules",
+    "message": "Модули",
     "description": "The generated-index page description for category Modules in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Network": {
@@ -72,7 +68,7 @@
     "description": "The label for category Network in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Network.link.generated-index.description": {
-    "message": "Описание Network",
+    "message": "Network",
     "description": "The generated-index page description for category Network in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Object": {
@@ -80,7 +76,7 @@
     "description": "The label for category Object in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Object.link.generated-index.description": {
-    "message": "Описание Object",
+    "message": "Объект",
     "description": "The generated-index page description for category Object in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Special": {
@@ -88,7 +84,7 @@
     "description": "The label for category Special in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Special.link.generated-index.description": {
-    "message": "Описание Special",
+    "message": "Special",
     "description": "The generated-index page description for category Special in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Storage": {
@@ -96,7 +92,7 @@
     "description": "The label for category Storage in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Storage.link.generated-index.description": {
-    "message": "Описание Storage",
+    "message": "Хранение",
     "description": "The generated-index page description for category Storage in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.String": {
@@ -104,7 +100,7 @@
     "description": "The label for category String in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.String.link.generated-index.description": {
-    "message": "Описание String",
+    "message": "Строка",
     "description": "The generated-index page description for category String in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.System": {
@@ -112,7 +108,7 @@
     "description": "The label for category System in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.System.link.generated-index.description": {
-    "message": "Описание System",
+    "message": "System",
     "description": "The generated-index page description for category System in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Unused": {
@@ -120,7 +116,7 @@
     "description": "The label for category Unused in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Unused.link.generated-index.description": {
-    "message": "Описание Unused",
+    "message": "Unused",
     "description": "The generated-index page description for category Unused in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Utils": {
@@ -128,7 +124,7 @@
     "description": "The label for category Utils in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Utils.link.generated-index.description": {
-    "message": "Описание Utils",
+    "message": "Утилиты",
     "description": "The generated-index page description for category Utils in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Web3": {
@@ -136,7 +132,7 @@
     "description": "The label for category Web3 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Web3.link.generated-index.description": {
-    "message": "Описание Web3",
+    "message": "Web3",
     "description": "The generated-index page description for category Web3 in sidebar tutorialSidebar"
   }
 }

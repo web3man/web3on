@@ -2,6 +2,6 @@
 sidebar_position: 3
 ---
 
-# filter by
+# Filter by
 
-## md для filter by
+## Filter by

@@ -10,7 +10,9 @@ cd $script_pwd/..
 git pull -f
 # Если обновилось запускаем скрипт
 if [ "$last_commit" != $(git -C $REPO_DIR rev-parse --short HEAD) ]; then
+    mkdir -p $script_pwd/../docs/nodes
     node $script_pwd/ci.js $REPO_DIR $script_pwd/../docs
+
     mkdir -p $script_pwd/../i18n/ru/docusaurus-plugin-content-docs/current/nodes
     mkdir -p $script_pwd/../i18n/en/docusaurus-plugin-content-docs/current/nodes
 
