@@ -60,12 +60,12 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Web3on',
-        // logo: {
-        //   alt: 'My Site Logo',
-        //   src: 'img/logo.svg',
-        //   href: 'https://web3on.io/'
-        // },
+        title: 'web3on',
+        logo: {
+          alt: 'web3on',
+          src: 'img/logo.png',
+          href: 'https://web3on.io/'
+        },
         items: [
           {
             type: 'doc',
