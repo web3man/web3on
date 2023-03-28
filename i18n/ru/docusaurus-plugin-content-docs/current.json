@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Nodes": {
-    "message": "Nodes",
+    "message": "Блоки",
     "description": "The label for category Nodes in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Nodes.link.generated-index.description": {
