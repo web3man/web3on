@@ -2,6 +2,6 @@
 sidebar_position: 7
 ---
 
-# Search
+# Поиск
 
-## md для Search
+## Поиск

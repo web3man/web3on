@@ -2,6 +2,6 @@
 sidebar_position: 15
 ---
 
-# Test Faucet
+# Тестовый кран
 
-## md для Test Faucet
+## Тестовый кран

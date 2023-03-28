@@ -2,6 +2,6 @@
 sidebar_position: 9
 ---
 
-# Transaction
+# Транзакция
 
-## md для Transaction
+## Транзакция

@@ -2,6 +2,6 @@
 sidebar_position: 5
 ---
 
-# HexToNumber
+# Hex в число
 
-## md для HexToNumber
+## Hex в число

@@ -2,6 +2,6 @@
 sidebar_position: 11
 ---
 
-# Type
+# Тип
 
-## md для Type
+## Тип

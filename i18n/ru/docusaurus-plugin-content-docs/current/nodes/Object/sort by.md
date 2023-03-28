@@ -2,6 +2,6 @@
 sidebar_position: 12
 ---
 
-# sort by
+# Сортировать по
 
-## md для sort by
+## Сортировать по

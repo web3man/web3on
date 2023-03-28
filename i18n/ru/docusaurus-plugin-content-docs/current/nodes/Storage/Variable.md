@@ -2,6 +2,6 @@
 sidebar_position: 5
 ---
 
-# Variable
+# Переменная
 
-## md для Variable
+## Переменная

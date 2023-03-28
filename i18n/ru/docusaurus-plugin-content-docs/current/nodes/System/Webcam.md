@@ -2,6 +2,6 @@
 sidebar_position: 3
 ---
 
-# Webcam
+# Веб-камера
 
-## md для Webcam
+## Веб-камера

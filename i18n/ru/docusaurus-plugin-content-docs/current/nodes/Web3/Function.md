@@ -2,6 +2,6 @@
 sidebar_position: 7
 ---
 
-# Function
+# Функция
 
-## md для Function
+## Функция

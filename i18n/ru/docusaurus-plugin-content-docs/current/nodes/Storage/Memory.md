@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# Memory
+# Память
 
-## md для Memory
+## Память

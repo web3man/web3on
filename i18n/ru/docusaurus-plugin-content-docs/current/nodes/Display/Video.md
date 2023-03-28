@@ -2,6 +2,6 @@
 sidebar_position: 12
 ---
 
-# Video
+# Видео
 
-## md для Video
+## Видео

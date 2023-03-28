@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# Latest
+# Последний
 
-## md для Latest
+## Последний

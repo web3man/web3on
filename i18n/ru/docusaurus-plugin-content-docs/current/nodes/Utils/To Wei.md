@@ -2,6 +2,6 @@
 sidebar_position: 16
 ---
 
-# To Wei
+# в Wei
 
-## md для To Wei
+## в Wei

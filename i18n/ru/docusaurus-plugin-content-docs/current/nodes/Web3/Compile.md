@@ -2,6 +2,6 @@
 sidebar_position: 5
 ---
 
-# Compile
+# Компилятор
 
-## md для Compile
+## Компилятор

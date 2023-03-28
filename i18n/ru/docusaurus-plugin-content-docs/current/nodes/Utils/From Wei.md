@@ -2,6 +2,6 @@
 sidebar_position: 3
 ---
 
-# From Wei
+# из Wei
 
-## md для From Wei
+## из Wei

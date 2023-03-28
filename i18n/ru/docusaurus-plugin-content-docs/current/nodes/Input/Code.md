@@ -2,6 +2,6 @@
 sidebar_position: 2
 ---
 
-# Code
+# Код
 
-## md для Code
+## Код

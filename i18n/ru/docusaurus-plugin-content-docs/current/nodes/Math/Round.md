@@ -2,6 +2,6 @@
 sidebar_position: 3
 ---
 
-# Round
+# Округление
 
-## md для Round
+## Округление

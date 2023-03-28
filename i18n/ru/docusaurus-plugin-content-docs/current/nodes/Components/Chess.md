@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# Chess
+# Шахматы
 
-## md для Chess
+## Шахматы

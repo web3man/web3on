@@ -2,6 +2,6 @@
 sidebar_position: 6
 ---
 
-# Leading Zeros
+# Ведущие нули
 
-## md для Leading Zeros
+## Ведущие нули

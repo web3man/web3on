@@ -2,6 +2,6 @@
 sidebar_position: 14
 ---
 
-# ToString
+# To String
 
-## md для ToString
+## To String

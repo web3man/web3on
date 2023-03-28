@@ -2,6 +2,6 @@
 sidebar_position: 10
 ---
 
-# index
+# Индекс
 
-## md для index
+## Индекс

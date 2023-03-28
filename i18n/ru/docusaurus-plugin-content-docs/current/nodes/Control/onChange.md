@@ -2,6 +2,6 @@
 sidebar_position: 12
 ---
 
-# onChange
+# on Change
 
-## md для onChange
+## on Change

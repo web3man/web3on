@@ -2,6 +2,6 @@
 sidebar_position: 3
 ---
 
-# Number
+# Число
 
-## md для Number
+## Число

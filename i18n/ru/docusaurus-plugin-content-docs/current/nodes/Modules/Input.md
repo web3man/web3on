@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Input
+# Ввод
 
-## md для Input
+## Ввод

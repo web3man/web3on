@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Decrypt
+# Расшифровать
 
-## md для Decrypt
+## Расшифровать

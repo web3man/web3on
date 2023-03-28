@@ -2,6 +2,6 @@
 sidebar_position: 11
 ---
 
-# property
+# Свойство
 
-## md для property
+## Свойство

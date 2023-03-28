@@ -2,6 +2,6 @@
 sidebar_position: 9
 ---
 
-# TextArea
+# Text Area
 
-## md для TextArea
+## Text Area

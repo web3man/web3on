@@ -2,6 +2,6 @@
 sidebar_position: 3
 ---
 
-# Hash
+# Хэш
 
-## md для Hash
+## Хэш

@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Base64 Decode
+# Декодировать из Base64
 
-## md для Base64 Decode
+## Декодировать из Base64

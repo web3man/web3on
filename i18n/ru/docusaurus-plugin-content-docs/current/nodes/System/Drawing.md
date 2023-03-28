@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Drawing
+# Рисование
 
-## md для Drawing
+## Рисование

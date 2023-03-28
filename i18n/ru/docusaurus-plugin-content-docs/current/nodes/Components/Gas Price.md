@@ -2,6 +2,6 @@
 sidebar_position: 9
 ---
 
-# Gas Price
+# Цена Газа
 
-## md для Gas Price
+## Цена Газа

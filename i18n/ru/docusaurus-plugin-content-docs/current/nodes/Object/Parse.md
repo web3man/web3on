@@ -2,6 +2,6 @@
 sidebar_position: 6
 ---
 
-# Parse
+# Парсинг
 
-## md для Parse
+## Парсинг

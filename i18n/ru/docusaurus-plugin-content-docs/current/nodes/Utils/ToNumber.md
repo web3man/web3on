@@ -2,6 +2,6 @@
 sidebar_position: 13
 ---
 
-# ToNumber
+# в число
 
-## md для ToNumber
+## в число

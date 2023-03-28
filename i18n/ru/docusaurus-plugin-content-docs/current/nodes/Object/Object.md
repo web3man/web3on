@@ -2,6 +2,6 @@
 sidebar_position: 9
 ---
 
-# Object
+# Объект
 
-## md для Object
+## Объект

@@ -2,6 +2,6 @@
 sidebar_position: 12
 ---
 
-# To Hex
+# в Hex
 
-## md для To Hex
+## в Hex

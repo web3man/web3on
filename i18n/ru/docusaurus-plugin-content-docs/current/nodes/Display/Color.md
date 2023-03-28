@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# Color
+# Цвет
 
-## md для Color
+## Цвет

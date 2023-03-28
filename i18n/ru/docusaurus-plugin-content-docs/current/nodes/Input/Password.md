@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# Password
+# Пароль
 
-## md для Password
+## Пароль

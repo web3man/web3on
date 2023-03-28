@@ -2,6 +2,6 @@
 sidebar_position: 2
 ---
 
-# Block
+# Блок
 
-## md для Block
+## Блок

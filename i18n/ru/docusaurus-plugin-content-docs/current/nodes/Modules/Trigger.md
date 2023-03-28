@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# Trigger
+# Триггер
 
-## md для Trigger
+## Триггер

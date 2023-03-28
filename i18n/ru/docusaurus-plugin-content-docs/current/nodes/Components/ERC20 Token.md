@@ -2,6 +2,6 @@
 sidebar_position: 8
 ---
 
-# ERC20 Token
+# Токен ERC20
 
-## md для ERC20 Token
+## Токен ERC20

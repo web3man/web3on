@@ -2,6 +2,6 @@
 sidebar_position: 8
 ---
 
-# Send Tx
+# Отправить Tx
 
-## md для Send Tx
+## Отправить Tx

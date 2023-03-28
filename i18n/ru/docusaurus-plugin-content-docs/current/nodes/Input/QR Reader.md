@@ -2,6 +2,6 @@
 sidebar_position: 5
 ---
 
-# QR Reader
+# QR-ридер
 
-## md для QR Reader
+## QR-ридер

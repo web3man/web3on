@@ -2,6 +2,6 @@
 sidebar_position: 3
 ---
 
-# Chain
+# Сеть
 
-## md для Chain
+## Сеть

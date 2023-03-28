@@ -2,6 +2,6 @@
 sidebar_position: 2
 ---
 
-# Combine
+# Объединить
 
-## md для Combine
+## Объединить

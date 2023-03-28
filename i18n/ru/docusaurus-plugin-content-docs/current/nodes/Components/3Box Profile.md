@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# 3Box Profile
+# Профиль 3Box
 
-## md для 3Box Profile
+## Профиль 3Box

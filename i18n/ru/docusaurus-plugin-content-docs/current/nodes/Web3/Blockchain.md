@@ -2,6 +2,6 @@
 sidebar_position: 3
 ---
 
-# Blockchain
+# Блокчейн
 
-## md для Blockchain
+## Блокчейн

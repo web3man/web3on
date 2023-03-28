@@ -2,6 +2,6 @@
 sidebar_position: 2
 ---
 
-# Module
+# Модуль
 
-## md для Module
+## Модуль

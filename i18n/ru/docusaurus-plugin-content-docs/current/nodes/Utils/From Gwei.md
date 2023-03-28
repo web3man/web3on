@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# From Gwei
+# из Gwei
 
-## md для From Gwei
+## из Gwei

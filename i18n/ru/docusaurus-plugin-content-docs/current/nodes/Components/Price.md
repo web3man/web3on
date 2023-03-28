@@ -2,6 +2,6 @@
 sidebar_position: 13
 ---
 
-# Price
+# Цена
 
-## md для Price
+## Цена

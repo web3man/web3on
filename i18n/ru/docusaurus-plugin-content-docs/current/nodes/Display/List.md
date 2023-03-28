@@ -2,6 +2,6 @@
 sidebar_position: 7
 ---
 
-# List
+# Список
 
-## md для List
+## Список
