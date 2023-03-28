@@ -3,7 +3,9 @@ const fs = require('fs')
 const currDocs = require('./currDocs');
 const currNodes = require('./currNodes');
 
-function getMdText(position, type){
+function getMdText(position, type, translationMap){
+    position = translationMap[position] || position
+    type = translationMap[type] || type
     return fs.readFileSync(path.join(__dirname,'template.md')).toString().replaceAll('@type@', type).replaceAll('@position@', position)
 }
 
@@ -21,6 +23,17 @@ if(!docs_dir){
     process.exit(-2);
 }
 
+let locale = ["ru","en"].map(l=>docs_dir.includes('/'+l+'/')?l:null).filter(x=>x)[0]
+if(!locale){
+    console.warn("Can't get locale from doc_dir. Default locale is en");
+    locale = 'en'
+}
+console.log("Locale: ", locale)
+let translationMap = require(path.join(nocode_dir,`src/locales/${locale}.json`))
+if(!translationMap){
+    console.error("Can't find translation file for locale", locale)
+    process.exit(-3)
+}
 const curr_docs = currDocs(path.join(docs_dir,'/nodes'))
 const curr_nodes = currNodes(path.join(nocode_dir,'src/nodes'))
 let section_position = Math.max(...Object.keys(curr_docs).map(section=>curr_docs[section].position)) + 1
@@ -33,7 +46,7 @@ for(const section in curr_nodes){
             position: section_position++,
             link: {
                 type: "generated-index",
-                description: "Описание "+section
+                description: section
             }
         },null,2))
     }
@@ -43,7 +56,7 @@ for(const section in curr_nodes){
     for(const node of curr_nodes[section]){
         let count = curr_docs?.[section]?.nodes?.filter(doc_node=>doc_node.name==node+'.md')?.length || 0
         if(count==0){
-            fs.writeFileSync(path.join(docs_dir,'/nodes',section,node+'.md'),getMdText(position++, node))
+            fs.writeFileSync(path.join(docs_dir,'/nodes',section,node+'.md'),getMdText(position++, node, translationMap))
         }
     }
 }
