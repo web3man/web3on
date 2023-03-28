@@ -12,7 +12,7 @@
     "description": "The generated-index page description for category Nodes in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Input": {
-    "message": "Ввод",
+    "message": "Input",
     "description": "The label for category Input in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Input.link.generated-index.description": {
