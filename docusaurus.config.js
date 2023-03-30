@@ -9,7 +9,7 @@ const config = {
   title: 'Web3on - No-code для Web3',
   favicon: 'images/favicon.ico',
   // Set the production url of your site here
-  url: 'https://web3on.io.com',
+  url: 'https://web3on.ru',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -64,7 +64,7 @@ const config = {
         logo: {
           alt: 'web3on',
           src: 'img/logo.png',
-          href: 'https://web3on.io/'
+          href: 'https://web3on.ru/'
         },
         items: [
           {

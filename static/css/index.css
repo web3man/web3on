@@ -38,6 +38,9 @@ body {
     color: #70a4be;
     font-weight: 400;
 }
+.mobile-logo>img{
+    width: 250px;
+}
 
 /* content container */
 
@@ -45,12 +48,9 @@ body {
 
 }
 
-.cc__logo {
+.logo {
+    width: 250px;
     display: none;
-    margin: 0;
-    font-size: 62px;
-    color: #70a4be;
-    font-weight: 400;
 }
 
 .cc__text {
@@ -130,16 +130,10 @@ body {
     .tb-grid__cell:last-child {
         margin-right: 62px;
     }
-    .cc__logo {
-        display: block;
-    }
-
-    .tb-grid__cell,
-    .tb-grid__image {
-        width: 689px;
+    .logo {
+        display: inline;
     }
 }
-
 
 
 
@@ -158,8 +152,6 @@ body {
 .mt-45 {
     margin-top: 45px;
 }
-
-
 .mb-45 {
     margin-bottom: 45px;
 }
