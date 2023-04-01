@@ -4,4 +4,4 @@ sidebar_position: 3
 
 # Blockie
 
-## Blockie
+Блок с Blockie-генератором.
