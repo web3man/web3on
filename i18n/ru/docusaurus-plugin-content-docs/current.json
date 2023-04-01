@@ -11,6 +11,14 @@
     "message": "Блоки",
     "description": "The label for category nodes in sidebar tutorialSidebar"
   },
+    "sidebar.tutorialSidebar.category.Input": {
+    "message": "Ввод",
+    "description": "The label for category Input in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Input.link.generated-index.description": {
+    "message": "Блоки для ввода данных в раличных форматах",
+    "description": "The generated-index page description for category Input in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Components": {
     "message": "Компоненты",
     "description": "The label for category Components in sidebar tutorialSidebar"
@@ -42,14 +50,6 @@
   "sidebar.tutorialSidebar.category.Display.link.generated-index.description": {
     "message": "Вывод",
     "description": "The generated-index page description for category Display in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Input": {
-    "message": "Ввод",
-    "description": "The label for category Input in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Input.link.generated-index.description": {
-    "message": "Ввод",
-    "description": "The generated-index page description for category Input in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Math": {
     "message": "Math",
