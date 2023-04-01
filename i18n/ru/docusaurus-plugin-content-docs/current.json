@@ -3,6 +3,10 @@
     "message": "Next",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.demo": {
+    "message": "Demo-схемы",
+    "description": "The label for category demo in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.nodes": {
     "message": "Блоки",
     "description": "The label for category nodes in sidebar tutorialSidebar"
