@@ -6,32 +6,23 @@ sidebar_position: 1
 
 Поехали!
 
-## Что из себя представляеь web3on?
+## Что такое **web3on**?
 
-Это виртуальная доска, на которой можно собирать из готовых блоков различные схемы, с помощьюк которых можно **изучать web3-технологии и создавать свои проекты**.
+Это виртуальная доска, на которой можно собирать из готовых блоков различные схемы, с помощью которых можно **изучать web3-технологии и создавать свои проекты**.
 
 ## Библиотека блоков
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Все блоки находятся в вернем меню, разбитые на разделы. Для добавления на доску нужно просто выбрать блок и кликнуть на него, далее он появится на доске. Описание каждого блока находится в разделе Блоки данной Wiki. Кроме того, при клике правой клавишей мыши по блоку откроется его контекстное меню, где можно нажав на пункт **О блоке** перейти на его описание. 
 
-## Generate a new site
+## Построение схем
 
-Generate a new Docusaurus site using the **classic template**.
+Схемы строятся очень просто. У блоков есть Входы и Выходы. Входы в левой части блока, Выходы в правой.
 
-The classic template will automatically be added to your project after you run the command:
+Соответственно для построения схем нужно соединять Входы одних блоков с Выходами других. Для соединения нужно зажать Вход/Выход и тянуть курсор в сторону другого блока, соединитель автоматически появится.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Панель инструментов
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+Справа от доски находится горизонтальное меню панели инструментов.
 
 ```bash
 cd my-website
