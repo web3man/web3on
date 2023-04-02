@@ -4,15 +4,13 @@ sidebar_position: 1
 
 # Введение
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Поехали!
 
-## Getting Started
+## Что из себя представляеь web3on?
 
-Get started by **creating a new site**.
+Это виртуальная доска, на которой можно собирать из готовых блоков различные схемы, с помощьюк которых можно **изучать web3-технологии и создавать свои проекты**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
+## Библиотека блоков
 
 - [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
