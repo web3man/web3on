@@ -2,6 +2,6 @@
 sidebar_position: 7
 ---
 
-# Request
+# API Запрос
 
-## Request
+Блок для обращения к внешним API-интерфейсам.
