@@ -4,4 +4,4 @@ sidebar_position: 8
 
 # НЕ
 
-## NOT
+Блок для замены на противположное значение. True на false, false на true.
