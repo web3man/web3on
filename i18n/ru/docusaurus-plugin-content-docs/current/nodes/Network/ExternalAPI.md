@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# ExternalAPI
+# Внешний API
 
-## ExternalAPI
+Блок для публикации "наружу" API-интерфейса.
