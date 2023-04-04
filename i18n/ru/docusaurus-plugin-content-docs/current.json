@@ -28,11 +28,11 @@
     "description": "The generated-index page description for category Components in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Control": {
-    "message": "Control",
+    "message": "Управление",
     "description": "The label for category Control in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Control.link.generated-index.description": {
-    "message": "Control",
+    "message": "Управление",
     "description": "The generated-index page description for category Control in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Crypto": {
