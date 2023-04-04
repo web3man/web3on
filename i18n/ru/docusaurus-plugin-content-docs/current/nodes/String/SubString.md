@@ -4,4 +4,4 @@ sidebar_position: 9
 
 # SubString
 
-## SubString
+Блок извлекает из строки ее часть (X символов начиная с N позиции).
