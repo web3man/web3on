@@ -52,11 +52,11 @@
     "description": "The generated-index page description for category Display in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Math": {
-    "message": "Math",
+    "message": "Математика",
     "description": "The label for category Math in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Math.link.generated-index.description": {
-    "message": "Math",
+    "message": "Математика",
     "description": "The generated-index page description for category Math in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Modules": {
