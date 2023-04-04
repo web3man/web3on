@@ -9,7 +9,6 @@ sidebar_position: 1
     height="480"
     src="https://www.youtube.com/embed/w0UOOGyiCgI"
     frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
+    allow="autoplay; encrypted-media; fullscreen"
 >
 </iframe>
