@@ -2,6 +2,6 @@
 sidebar_position: 12
 ---
 
-# в Hex
+# В HEX
 
-## в Hex
+Блок для конвертиртации из Dec в Hex.
