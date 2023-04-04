@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# из Gwei
+# Из Gwei
 
 Блок для конвертиртации из Gwei в Eth.
