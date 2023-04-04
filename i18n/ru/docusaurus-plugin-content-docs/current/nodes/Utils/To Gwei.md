@@ -2,6 +2,6 @@
 sidebar_position: 11
 ---
 
-# в Gwei
+# В Gwei
 
-## в Gwei
+Блок для конвертиртации из Eth в Gwei.
