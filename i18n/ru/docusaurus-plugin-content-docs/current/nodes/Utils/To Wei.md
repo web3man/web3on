@@ -2,6 +2,6 @@
 sidebar_position: 16
 ---
 
-# в Wei
+# В Wei
 
-## в Wei
+Блок для конвертиртации из Eth в Wei.
