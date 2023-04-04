@@ -4,4 +4,4 @@ sidebar_position: 3
 
 # из Wei
 
-## из Wei
+Блок для конвертиртации из Wei в Eth.
