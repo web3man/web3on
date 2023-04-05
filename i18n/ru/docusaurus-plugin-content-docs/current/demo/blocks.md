@@ -6,7 +6,7 @@ sidebar_position: 1
 
 12234
 
-<image src="https://disk.yandex.ru/i/0KxPijFzyt5MrA" alt="Текст с описанием картинки">
+<img> src="https://disk.yandex.ru/i/0KxPijFzyt5MrA" alt="Текст с описанием картинки"></img>
     
 <iframe
     width="560"
