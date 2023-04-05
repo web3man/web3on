@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Визуализация работы блоков в блокчейне
 
+12234
+
 <image src="https://disk.yandex.ru/i/0KxPijFzyt5MrA" alt="Текст с описанием картинки">
     
 <iframe
