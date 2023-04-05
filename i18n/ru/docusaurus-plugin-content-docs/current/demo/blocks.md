@@ -6,7 +6,7 @@ sidebar_position: 1
 
 12234
 
-<img src="https://github.com/web3man/web3on/blob/docusaurus/static/img/docs-img/blocks1.png" alt="Текст с описанием картинки"></img>
+<img src="https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/blocks1.png" alt="Текст с описанием картинки"></img>
     
 <iframe
     width="560"
