@@ -6,6 +6,10 @@ sidebar_position: 1
 
 12234
 
+![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/blocks1.png)
+
+678
+
 <img src="https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/blocks1.png" alt="Текст с описанием картинки"></img>
     
 <iframe
