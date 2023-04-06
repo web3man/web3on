@@ -10,7 +10,7 @@ sidebar_position: 4
 
 На доске сгенерируем себе адрес и подключим к нему блок «Баланс». А к нему подключим блок «Кнопка», чтобы можно было проверять баланс по запросу:
 
-![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/balance1.png)
+![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/balance2.png)
 
 Далее нам нужно подключиться к сети. Берем блок «Сеть (RPC)», выбираем там Sepolia Testnet и подключаем его к блоку «Баланс».
 
@@ -38,7 +38,7 @@ sidebar_position: 4
 
 Теперь вернемся во вкладку с блокчейн-эксплорером https://sepolia.etherscan.io, и в поисковой строке введем наш адрес:
 
-![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/balance1.png)
+![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/balance3.png)
 
 Мы попадем на страницу с информацией о нашем адресе, где увидим баланс (он должен совпадать с балансом на доске) и историю транзакций: 
 
