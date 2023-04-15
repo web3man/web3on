@@ -17,5 +17,3 @@ sidebar_position: 7
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/write-read-sc5.png)
 
-![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/write-read-sc6.png)
-
