@@ -24,7 +24,11 @@ sidebar_position: 7
 
 Теперь повторите все тоже самое с setAge() и getAge().
 
+В итоге на странице контрака в обозревателе блоков у вас должно быть 3 транзакции: одна - создание контракта, две - записи данных:
+
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/write-read-sc4.png)
+
+Кроме того, вы можете проверить себя перейдя во вкладке Contract в пункт Read contract:
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/write-read-sc5.png)
 
