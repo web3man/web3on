@@ -51,11 +51,14 @@ contract IvanIvanov {
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create1.png)
 
-Теперь нам нужно разместь контракт в сети. Делается это с помощью транзакции, которую мы уже умеем делать. На вход Data блока "Транзакция" мы должны подать байткод контракта, вход To оставляем пустым, а Gas Limit устанавливаем побольше, например, 500 000:
+Теперь нам нужно разместь контракт в сети. Делается это с помощью транзакции, которую мы уже умеем делать. На вход Data блока "Транзакция" мы должны подать байткод контракта, вход To оставляем пустым, а Gas Limit устанавливаем побольше, например, 500 000. Отправляем:
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create2.png)
 
+После получяения Receipt, копируем хэш транзакции и вставлем его в обозреватель блоков https://sepolia.etherscan.io/. Если мы все правильно сделали, то должны увидеть адрес нашего смарт-контракта в поле To: 
+
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create3.png)
+
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create4.png)
 
