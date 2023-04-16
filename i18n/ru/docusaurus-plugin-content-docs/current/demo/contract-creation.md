@@ -11,7 +11,7 @@ sidebar_position: 6
 // compiler version must be greater than or equal to 0.8.17 and less than 0.9.0
 pragma solidity ^0.8.19;
 
-//contract name is FirstnameLastname
+//contract name ...
 contract IvanIvanov {
 
 //create two variables.  A sting and an integer
@@ -43,7 +43,7 @@ contract IvanIvanov {
 }
 ```
 
-Вставляем код смарт-контракта в блок "Код" и подключаем его к блоку "Компилятор". Так мы переведем код нашего смарт-контракта в байткод, чтобы его могла исполнять Ethereum Virtual Machine (EVM): 
+Вставляем код смарт-контракта в блок "Код" и подключаем его к блоку "Компилятор". Так мы переведем код нашего смарт-контракта в байткод, чтобы его могла исполнять Ethereum Virtual Machine (EVM). Замените название смартконтракта IvanIvanov на ваши Имя и Фамилию в таком же формате:   
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create.png)
 
@@ -51,6 +51,7 @@ contract IvanIvanov {
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create1.png)
 
+Теперь нам нужно разместь контракт в сети. Делается это с помощью транзакции, которую мы уже умеем делать. На вход Data блока "Транзакция" мы должны подать байткод контракта, вход To оставляем пустым, а Gas Limit устанавливаем побольше, например, 500 000:
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create2.png)
 
