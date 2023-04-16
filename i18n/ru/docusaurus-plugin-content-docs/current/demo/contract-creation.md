@@ -59,9 +59,20 @@ contract IvanIvanov {
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create3.png)
 
+Теперь нам нужно опубликовать код нашего контракта и верифицировать его. Переходим на страницу смарт-контракта, а там во вкладку Contract. Нажимаем Verify and Publish:
+
+![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create7.png)
+
+Заполняем все как на скрине ниже. В первом поле уже должен быть введен адрес вашего контракта. Нажимаем Continue:
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create4.png)
 
+Далее вставляем код нашего контракта (в таком же виде, как вставляли в блок "Код"). И нажимаем внизу кнопку Verify and Publish:
+
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create5.png)
 
+Теперь во вкладке Contract мы должны увидеть следующее:
+
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/sc-create6.png)
+
+Наш первый контракт опубликован и верифицирован.
