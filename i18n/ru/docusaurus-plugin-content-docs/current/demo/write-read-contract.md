@@ -18,7 +18,7 @@ sidebar_position: 7
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/write-read-sc2.png)
 
-Чтобы проверить произошла ли запись, прочитаем даныые из контракта с помощью функции getName():
+Чтобы проверить произошла ли запись, прочитаем данные из контракта с помощью функции getName():
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/write-read-sc3.png)
 
@@ -28,7 +28,7 @@ sidebar_position: 7
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/write-read-sc4.png)
 
-Кроме того, вы можете проверить себя перейдя во вкладке Contract в пункт Read contract:
+Кроме того, вы можете проверить себя перейдя во вкладке Contract в пункт Read Contract:
 
 ![Текст с описанием картинки](https://github.com/web3man/web3on/raw/docusaurus/static/img/docs-img/write-read-sc5.png)
 
