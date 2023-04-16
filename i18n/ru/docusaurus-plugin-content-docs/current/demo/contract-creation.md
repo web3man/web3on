@@ -6,7 +6,7 @@ sidebar_position: 6
 
 Возьмем простой смарт-контракт, в который мы можем записать свои Имя и Возраст, а потом прочитать эти данные. Контракт написан на языке Solidity:
 
-'''
+```
 // SPDX-License-Identifier: MIT
 // compiler version must be greater than or equal to 0.8.17 and less than 0.9.0
 pragma solidity ^0.8.19;
@@ -41,7 +41,7 @@ contract IvanIvanov {
     }
     
 }
-'''
+```
 
 Вставляем код смарт-контракта в блок "Код" и подключаем его к блоку "Компилятор". Так мы переведем код нашего смарт-контракта в байткод, чтобы его могла исполнять Ethereum Virtual Machine (EVM): 
 
