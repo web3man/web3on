@@ -64,7 +64,6 @@ const config = {
         logo: {
           alt: 'web3on',
           src: 'img/logo.png',
-          href: 'https://web3on.ru/'
         },
         items: [
           {
