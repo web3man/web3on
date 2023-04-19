@@ -86,9 +86,12 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
+        links: [{
+          title: 'Email',
+          items: [{label: 'info@web3on.ru', href:"mailto:info@web3on.ru"}]
+        }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Web3on, Inc. Built with Docusaurus.`,
+        copyright: `© 2023 ООО “Цифровые решения”. Сделано с помощью Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,
