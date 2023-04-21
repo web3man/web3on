@@ -86,7 +86,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [{
-          title: 'Email',
+          title: 'Контакты',
           items: [{label: 'info@web3on.ru', href:"mailto:info@web3on.ru"}]
         }
         ],

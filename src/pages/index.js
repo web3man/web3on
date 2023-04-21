@@ -73,7 +73,7 @@ export default function Hello() {
                     className="cc__button"
                     style={{ marginBottom: 30 }}
                   >
-                    Пробовать бесплатно
+                    Попробовать бесплатно
                   </a>
                 </div>
                 <div className="cc__button-wrapper">
