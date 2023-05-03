@@ -73,6 +73,12 @@ const config = {
             label: 'Tutorial',
           },
           {
+            type: 'doc',
+            docId: 'legal_info/offer',
+            position: 'left',
+            label: 'LegalInfo',
+          },
+          {
             href: 'https://github.com/web3man/web3on',
             label: 'GitHub',
             position: 'right',
@@ -85,9 +91,18 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [{
+        links: [
+        {
           title: 'Контакты',
           items: [{label: 'info@web3on.ru', href:"mailto:info@web3on.ru"}]
+        },
+        {
+          title: 'Правовая информация',
+          items: [
+            {label: 'Публичная оферта', to:"docs/legal_info/offer"},
+            {label: 'Политика конфиденциальности', to:"docs/legal_info/privacy_policy"},
+            {label: 'Лицензионный договор', to:"docs/legal_info/license_agreement"}
+          ]
         }
         ],
         copyright: `© 2023 ООО “Цифровые решения”. Сделано с помощью Docusaurus`,
