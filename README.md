@@ -11,7 +11,7 @@ $ yarn
 ### Local Development
 
 ```
-$ yarn start
+$ pm2 start "yarn start --port 5111" --name docs
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
