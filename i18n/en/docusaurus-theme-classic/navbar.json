@@ -4,8 +4,12 @@
     "description": "The title in the navbar"
   },
   "item.label.Tutorial": {
-    "message": "Tutorial",
+    "message": "Wiki",
     "description": "Navbar item with label Tutorial"
+  },
+  "item.label.LegalInfo": {
+    "message": "Legal Info",
+    "description": "Navbar item with label LegalInfo"
   },
   "item.label.GitHub": {
     "message": "GitHub",

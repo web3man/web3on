@@ -7,6 +7,10 @@
     "message": "Wiki",
     "description": "Navbar item with label Tutorial"
   },
+  "item.label.LegalInfo": {
+    "message": "Правовая информация",
+    "description": "Navbar item with label LegalInfo"
+  },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"

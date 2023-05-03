@@ -7,6 +7,10 @@
     "message": "Учебные схемы",
     "description": "The label for category demo in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.legal_info": {
+    "message": "Правовая информация",
+    "description": "The label for category demo in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.nodes": {
     "message": "Блоки",
     "description": "The label for category nodes in sidebar tutorialSidebar"
