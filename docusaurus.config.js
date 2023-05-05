@@ -58,7 +58,7 @@ const config = {
         {name: 'description',content: 'Изучение Web3 и прототипирование проектов. Для ВУЗов, школ, стартапов и всех, кому интересны распределенные технологии.'}
       ],
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/web3on-youtube.png',
       navbar: {
         title: 'web3on',
         logo: {
