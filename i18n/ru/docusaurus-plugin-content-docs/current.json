@@ -15,7 +15,7 @@
     "message": "Блоки",
     "description": "The label for category nodes in sidebar tutorialSidebar"
   },
-    "sidebar.tutorialSidebar.category.Input": {
+  "sidebar.tutorialSidebar.category.Input": {
     "message": "Ввод",
     "description": "The label for category Input in sidebar tutorialSidebar"
   },
