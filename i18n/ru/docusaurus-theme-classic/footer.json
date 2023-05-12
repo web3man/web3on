@@ -14,5 +14,29 @@
   "link.item.label.GitHub": {
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/web3man/web3on"
+  },
+  "link.title.Контакты": {
+    "message": "Контакты",
+    "description": "The title of the footer links column with title=Контакты in the footer"
+  },
+  "link.title.Правовая информация": {
+    "message": "Правовая информация",
+    "description": "The title of the footer links column with title=Правовая информация in the footer"
+  },
+  "link.item.label.info@web3on.ru": {
+    "message": "info@web3on.ru",
+    "description": "The label of footer link with label=info@web3on.ru linking to mailto:info@web3on.ru"
+  },
+  "link.item.label.Публичная оферта": {
+    "message": "Публичная оферта",
+    "description": "The label of footer link with label=Публичная оферта linking to docs_legal/legal_info/offer"
+  },
+  "link.item.label.Политика конфиденциальности": {
+    "message": "Политика конфиденциальности",
+    "description": "The label of footer link with label=Политика конфиденциальности linking to docs_legal/legal_info/privacy_policy"
+  },
+  "link.item.label.Лицензионный договор": {
+    "message": "Лицензионный договор",
+    "description": "The label of footer link with label=Лицензионный договор linking to docs_legal/legal_info/license_agreement"
   }
 }

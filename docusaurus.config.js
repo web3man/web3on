@@ -73,10 +73,10 @@ const config = {
             label: 'Tutorial',
           },
           {
-            type: 'doc',
-            docId: 'legal_info/offer',
+            to: '/docs_legal/legal_info/license_agreement',
             position: 'left',
             label: 'LegalInfo',
+            activeBaseRegex: '/docs_legal/'
           },
           {
             href: 'https://github.com/web3man/web3on',
@@ -99,9 +99,8 @@ const config = {
         {
           title: 'Правовая информация',
           items: [
-            {label: 'Публичная оферта', to:"docs/legal_info/offer"},
-            {label: 'Политика конфиденциальности', to:"docs/legal_info/privacy_policy"},
-            {label: 'Лицензионный договор', to:"docs/legal_info/license_agreement"}
+            {label: 'Лицензионный договор', to:"docs_legal/legal_info/license_agreement"},
+            {label: 'Стоимость', to:"docs_legal/legal_info/price"}
           ]
         }
         ],
@@ -112,6 +111,26 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  plugins:[
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'docs',
+    //     path: 'docs',
+    //     routeBasePath: 'docs',
+    //     sidebarPath: require.resolve('./sidebars.js'),
+    //   }, 
+    // ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs_legal',
+        path: 'docs_legal',
+        routeBasePath: 'docs_legal',
+        sidebarPath: require.resolve('./sidebars_legal.js'),
+      }, 
+    ],
+  ]
 };
 
 module.exports = config;
