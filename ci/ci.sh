@@ -7,7 +7,9 @@ git -C $REPO_DIR checkout $BRANCH && git -C $REPO_DIR pull -f || git clone $REPO
 echo $(git -C $REPO_DIR rev-parse --short HEAD)
 # Стягиваем лэндинг
 cd $script_pwd/..
+git reset --hard
 git pull -f
+npm i
 # Если обновилось запускаем скрипт
 if [ "$last_commit" != $(git -C $REPO_DIR rev-parse --short HEAD) ]; then
     mkdir -p $script_pwd/../docs/nodes
