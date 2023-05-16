@@ -128,6 +128,9 @@ const config = {
         path: 'docs_legal',
         routeBasePath: 'docs_legal',
         sidebarPath: require.resolve('./sidebars_legal.js'),
+        editUrl:
+            'https://github.com/web3man/web3on/blob/docusaurus/',
+        editLocalizedFiles: true,
       }, 
     ],
   ]
