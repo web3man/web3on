@@ -100,7 +100,7 @@ const config = {
             {html: 'Тел. +7 910 393 00 33'},
 
             {label: 'info@web3on.ru', href:"mailto:info@web3on.ru"},
-            {html: '© 2023 Web3on. Сделано с помошью Docusaurus'},
+            {html: '<br>© 2023 Web3on. Сделано с помошью Docusaurus'},
 
           ]
         },
