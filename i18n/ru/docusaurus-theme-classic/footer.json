@@ -7,10 +7,6 @@
     "message": "Bitbucket",
     "description": "The label of footer link with label=Bitbucket linking to https://bitbucket.org/takemycode/web3on_landing/src/docusaurus/"
   },
-  "copyright": {
-    "message": "© 2023 ООО “Цифровые решения”. Сделано с помощью Docusaurus",
-    "description": "The footer copyright"
-  },
   "link.item.label.GitHub": {
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/web3man/web3on"

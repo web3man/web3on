@@ -94,7 +94,15 @@ const config = {
         links: [
         {
           title: 'Контакты',
-          items: [{label: 'info@web3on.ru', href:"mailto:info@web3on.ru"}]
+          items: [
+            {html: 'ООО "Цифровые решения"'},
+            {html: 'г. Нижний Новгород, ул. Костина, д.3, офис 416-1'},
+            {html: 'Тел. +7 910 393 00 33'},
+
+            {label: 'info@web3on.ru', href:"mailto:info@web3on.ru"},
+            {html: '<br>© 2023 Web3on. Сделано с помошью Docusaurus'},
+
+          ]
         },
         {
           title: 'Правовая информация',
@@ -104,7 +112,7 @@ const config = {
           ]
         }
         ],
-        copyright: `© 2023 ООО “Цифровые решения”. Сделано с помощью Docusaurus`,
+        //copyright: `Правообладатель ООО «Цифровые решения», Россия, г. Нижний Новгород, ул. Костина, д.3, офис 416-1`,
       },
       prism: {
         theme: lightCodeTheme,
