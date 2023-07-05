@@ -437,6 +437,10 @@ a, a:hover {
   position: relative;
   z-index: 3; }
 
+.footer--dark {
+  background: var(--dark-background) !important;
+}
+
 .bg-white {
   background-color: #FFFFFF !important; }
 
