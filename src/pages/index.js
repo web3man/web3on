@@ -93,13 +93,13 @@ export default function Hello() {
                 >
                   Руководство пользователя
                 </a>
-                <a href="#pilot" className="navigation__item">
+                <a href="./#pilot" className="navigation__item">
                   Пилотные проекты
                 </a>
-                <a href="#plans" className="navigation__item">
+                <a href="./#plans" className="navigation__item">
                   Наши планы
                 </a>
-                <a href="#contacts" className="navigation__item">
+                <a href="./#contacts" className="navigation__item">
                   Контакты
                 </a>
               </div>
