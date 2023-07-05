@@ -55,7 +55,7 @@ const config = {
     ({
       metadata: [
         {name: 'viewport', content: 'width=device-width'},
-        {name: 'description',content: 'Изучение Web3 и прототипирование проектов. Для ВУЗов, школ, стартапов и всех, кому интересны распределенные технологии.'}
+        {name: 'description',content: 'Изучение Web3 и прототипирование проектов. Для ВУЗов, школ, стартапов и всех, кому интересны распределенные технологии.'},
       ],
       // Replace with your project's social card
       image: 'img/web3on-youtube.png',
@@ -142,7 +142,10 @@ const config = {
         editLocalizedFiles: true,
       }, 
     ],
-  ]
+  ],
+  stylesheets: [
+    {href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'},
+  ],
 };
 
 module.exports = config;

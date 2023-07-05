@@ -52,7 +52,6 @@ export default function Hello() {
 
   return (
     <LayoutProvider>
-
       <>
         <div className="land-container-wrapper bg-main sticky">
           <div className="land-container">
