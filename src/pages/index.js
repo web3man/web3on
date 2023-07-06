@@ -3,7 +3,7 @@ import Footer from "@theme/Footer";
 import LayoutProvider from "@theme/Layout/Provider";
 
 //импортитруется на все страницы
-import "../css/index.css";
+import "../css/index.scss";
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
