@@ -50,8 +50,8 @@ export default function Hello() {
     };
   }, []);
 
-  const [hostName, setHostName] = useState(window.location.hostname);
-  const [href, setHref] = useState(window.location.href);
+  const [hostName, setHostName] = useState('');
+  const [href, setHref] = useState('');
 
   useEffect(() => {
     const handleLocationChange = () => {
@@ -68,7 +68,7 @@ export default function Hello() {
     };
   }, []);
 
-  if (typeof window !== "undefined" && (hostName == 'web3on.io' || href == 'http://nc2.b3n.ru:3333/?lang=en' || href == 'http://localhost:3000/?lang=en')) {
+  if (hostName == 'web3on.io' || href == 'http://nc2.b3n.ru:3333/?lang=en' || href == 'http://localhost:3000/?lang=en') {
     // english
     return (
       <LayoutProvider>
