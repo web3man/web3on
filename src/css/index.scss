@@ -269,50 +269,6 @@ body {
           height: 100%;
         }
       }
-      @media (max-width: 1199.98px) {
-        .first-screen__mobile-try-button {
-          background: var(--button-color);
-          color: #FFFFFF;
-          text-decoration: none;
-          font-size: 15px;
-          text-transform: uppercase;
-          font-weight: 400;
-          line-height: 1;
-          padding: 14px 28px;
-          border-radius: 3px;
-          &:hover {
-            background: var(--button-hover-color);
-          }
-        }
-        .first-screen__mobile-manual-button {
-          color: #FFFFFF;
-          text-decoration: none;
-          font-size: 15px;
-          font-weight: 400;
-          line-height: 1.2;
-          &:hover {
-            color: var(--logo-color);
-          }
-        }
-        .first-screen__header {
-          font-size: 25px;
-        }
-        .first-screen__subheader {
-          font-size: 15px;
-        }
-      }
-      @media (min-width: 1200px) {
-        .first-screen__mobile-try-button,
-        .first-screen__mobile-manual-button {
-          display: none;
-        }
-        .first-screen__header {
-          font-size: 42px;
-        }
-        .first-screen__subheader {
-          font-size: 24px;
-        }
-      }
     }
   
     // Правая область. Содержимое - мона лиза, кнопки и т.д.
@@ -336,33 +292,81 @@ body {
         .first-screen__mona {
           max-width: 600px;
         }
-        .first-screen__desktop-try-button {
-          background: var(--button-color);
-          color: #FFFFFF;
-          text-decoration: none;
-          font-size: 16px;
-          text-transform: uppercase;
-          font-weight: 400;
-          line-height: 1;
-          padding: 14px 28px;
-          border-radius: 3px;
-          transition: 0.5s;
-          &:hover {
-            background: var(--button-hover-color);
-          }
-        }
-        .first-screen__desktop-manual-button {
-          color: #FFFFFF;
-          text-decoration: none;
-          font-size: 18px;
-          font-weight: 400;
-          line-height: 1.2;
-          &:hover {
-            color: var(--logo-color);
-          }
-        }
       }
     }
+
+    @media (max-width: 1199.98px) {
+      .first-screen__try-button,
+      .first-screen__mobile-try-button {
+        background: var(--button-color);
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 400;
+        line-height: 1;
+        padding: 14px 28px;
+        border-radius: 3px;
+        &:hover {
+          background: var(--button-hover-color);
+        }
+      }
+      .first-screen__mobile-manual-button {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.2;
+        &:hover {
+          color: var(--logo-color);
+        }
+      }
+      .first-screen__header {
+        font-size: 25px;
+      }
+      .first-screen__subheader {
+        font-size: 15px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .first-screen__mobile-try-button,
+      .first-screen__mobile-manual-button {
+        display: none;
+      }
+      .first-screen__header {
+        font-size: 42px;
+      }
+      .first-screen__subheader {
+        font-size: 24px;
+      }
+    }
+    .first-screen__try-button,
+    .first-screen__desktop-try-button {
+      background: var(--button-color);
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 400;
+      line-height: 1;
+      padding: 14px 28px;
+      border-radius: 3px;
+      transition: 0.5s;
+      &:hover {
+        background: var(--button-hover-color);
+      }
+    }
+    .first-screen__desktop-manual-button {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.2;
+      &:hover {
+        color: var(--logo-color);
+      }
+    }
+
   }
   
   .standard-block {
@@ -733,6 +737,26 @@ body {
   
     .desktop-mb-10 {
       margin-bottom: 10px !important;
+    }
+
+    .desktop-mt-110 {
+      margin-top: 110px !important;
+    }
+
+    .desktop-mt-100 {
+      margin-top: 100px !important;
+    }
+
+    .desktop-mt-90 {
+      margin-top: 90px !important;
+    }
+
+    .desktop-mt-80 {
+      margin-top: 80px !important;
+    }
+
+    .desktop-mt-70 {
+      margin-top: 70px !important;
     }
   
     .desktop-mt-60 {
