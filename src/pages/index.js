@@ -4,6 +4,15 @@ import LayoutProvider from "@theme/Layout/Provider";
 
 //импортитруется на все страницы
 import "../css/index.scss";
+
+// let href = null;
+// let hostName = null;
+// if (typeof window !== 'undefined') {
+//   href = window.location.href;
+//   hostName = window.location.hostname;
+// }
+
+
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
@@ -21,6 +30,20 @@ export default function Hello() {
 
 
 function Landing() {
+
+  const [hostName, setHostName] = useState('');
+  const [href, setHref] = useState('');
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setHostName(window.location.hostname);
+      setHref(window.location.href);
+
+      console.log('window.location.hostname', window.location.hostname);
+    }
+  }, []);
+
+
   let [state, setState] = useState({ opacity: "100%", delay: 0 });
   useEffect(() => {
     const interval = setInterval(() => {
@@ -61,15 +84,13 @@ function Landing() {
     };
   }, []);
 
-  const [hostName, setHostName] = useState('');
-  const [href, setHref] = useState('');
 
-  useEffect(() => {
-    setHostName(window.location.hostname);
-    setHref(window.location.href);
-  }, []);
+  if (!hostName) {
+    return '';
+  }
 
-  if (hostName == 'web3on.io' || href == 'http://nc2.b3n.ru:3333/?lang=en' || href == 'http://localhost:3000/?lang=en') {
+  // Строка содержит и временные тестовые условия (будут удалены позже)
+  if (hostName == 'web3on.io' || href == 'http://test2.home/?lang=en' || href == 'http://nc2.b3n.ru:3333/?lang=en' || href == 'http://localhost:3000/?lang=en') {
     // english
     return (
       <>
