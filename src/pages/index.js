@@ -54,18 +54,8 @@ export default function Hello() {
   const [href, setHref] = useState('');
 
   useEffect(() => {
-    const handleLocationChange = () => {
-      setHostName(window.location.hostname);
-      setHref(window.location.href);
-    };
-
-    // Подписываемся на событие изменения URL-адреса
-    window.addEventListener('popstate', handleLocationChange);
-
-    // Отписываемся от события при размонтировании компонента
-    return () => {
-      window.removeEventListener('popstate', handleLocationChange);
-    };
+    setHostName(window.location.hostname);
+    setHref(window.location.href);
   }, []);
 
   if (hostName == 'web3on.io' || href == 'http://nc2.b3n.ru:3333/?lang=en' || href == 'http://localhost:3000/?lang=en') {
