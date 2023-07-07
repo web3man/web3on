@@ -50,8 +50,25 @@ export default function Hello() {
     };
   }, []);
 
+  const [hostName, setHostName] = useState(window.location.hostname);
+  const [href, setHref] = useState(window.location.href);
 
-  if (typeof window !== "undefined" && (window.location.hostname == 'web3on.io' || window.location.href == 'http://nc2.b3n.ru:3333?lang=en' || window.location.href == 'http://localhost:3000/?lang=en')) {
+  useEffect(() => {
+    const handleLocationChange = () => {
+      setHostName(window.location.hostname);
+      setHref(window.location.href);
+    };
+
+    // Подписываемся на событие изменения URL-адреса
+    window.addEventListener('popstate', handleLocationChange);
+
+    // Отписываемся от события при размонтировании компонента
+    return () => {
+      window.removeEventListener('popstate', handleLocationChange);
+    };
+  }, []);
+
+  if (typeof window !== "undefined" && (hostName == 'web3on.io' || href == 'http://nc2.b3n.ru:3333/?lang=en' || href == 'http://localhost:3000/?lang=en')) {
     // english
     return (
       <LayoutProvider>
