@@ -51,7 +51,7 @@ export default function Hello() {
   }, []);
 
 
-  if (window.location.hostname == 'web3on.io') {
+  if (typeof window !== "undefined" && (window.location.hostname == 'web3on.io' || window.location.href == 'http://nc2.b3n.ru:3333/en/')) {
     // english
     return (
       <LayoutProvider>
